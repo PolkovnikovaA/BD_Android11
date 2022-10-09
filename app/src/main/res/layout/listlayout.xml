@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            tools:srcCompat="@drawable/zadl" />
+
+
+        <TextView
+            android:id="@+id/ID"
+            android:layout_width="56dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textColor="#00bfff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Familiya"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/ID"
+            android:fontFamily="serif"
+            android:textColor="#00bfff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Dolzhnost"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/ID"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

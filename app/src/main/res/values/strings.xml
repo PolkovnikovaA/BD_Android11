@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BD_Android</string>
+
+    <string-array name="Sortirovka">
+        <item></item>
+        <item>По алфавиту</item>
+        <item>По id</item>
+        <item>Сбросить сортировку</item>
+    </string-array>
+
+</resources>
